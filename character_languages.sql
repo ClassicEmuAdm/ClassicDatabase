@@ -28,7 +28,7 @@ CREATE TABLE `character_languages` (
   `value` smallint(11) unsigned NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`,`lang_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `character_languages` (
 
 LOCK TABLES `character_languages` WRITE;
 /*!40000 ALTER TABLE `character_languages` DISABLE KEYS */;
-INSERT INTO `character_languages` VALUES (1,0,95),(1,18,100),(1,23,100),(2,0,100),(3,0,100);
+INSERT INTO `character_languages` VALUES (1,0,95),(1,18,100),(1,23,100),(2,0,100),(3,0,100),(4,0,100),(4,2,25),(4,16,100),(4,24,100);
 /*!40000 ALTER TABLE `character_languages` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 10:59:58
+-- Dump completed on 2022-11-25 14:48:31

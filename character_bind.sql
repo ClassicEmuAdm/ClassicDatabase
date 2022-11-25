@@ -33,7 +33,7 @@ CREATE TABLE `character_bind` (
   `heading` float NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`,`slot`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `character_bind` (
 
 LOCK TABLES `character_bind` WRITE;
 /*!40000 ALTER TABLE `character_bind` DISABLE KEYS */;
-INSERT INTO `character_bind` VALUES (1,0,82,0,0,3,0,0),(1,1,82,0,0,0,0,0),(1,2,82,0,0,0,0,0),(1,3,82,0,0,0,0,0),(1,4,82,0,0,0,0,0),(2,0,3,0,0,0,0,0),(2,1,3,0,0,0,0,0),(2,2,3,0,0,0,0,0),(2,3,3,0,0,0,0,0),(2,4,3,0,0,0,0,0),(3,0,3,0,0,0,0,0),(3,1,3,0,0,0,0,0),(3,2,3,0,0,0,0,0),(3,3,3,0,0,0,0,0),(3,4,3,0,0,0,0,0);
+INSERT INTO `character_bind` VALUES (1,0,82,0,0,3,0,0),(1,1,82,0,0,0,0,0),(1,2,82,0,0,0,0,0),(1,3,82,0,0,0,0,0),(1,4,82,0,0,0,0,0),(2,0,3,0,0,0,0,0),(2,1,3,0,0,0,0,0),(2,2,3,0,0,0,0,0),(2,3,3,0,0,0,0,0),(2,4,3,0,0,0,0,0),(3,0,3,0,0,0,0,0),(3,1,3,0,0,0,0,0),(3,2,3,0,0,0,0,0),(3,3,3,0,0,0,0,0),(3,4,3,0,0,0,0,0),(4,0,155,0,0,0,0,0),(4,1,155,0,0,0,0,0),(4,2,155,0,0,0,0,0),(4,3,155,0,0,0,0,0),(4,4,155,0,0,0,0,0);
 /*!40000 ALTER TABLE `character_bind` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 10:59:57
+-- Dump completed on 2022-11-25 14:48:30

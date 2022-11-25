@@ -37,7 +37,7 @@ CREATE TABLE `character_memmed_spells` (
 
 LOCK TABLES `character_memmed_spells` WRITE;
 /*!40000 ALTER TABLE `character_memmed_spells` DISABLE KEYS */;
-INSERT INTO `character_memmed_spells` VALUES (3,1,4107),(3,2,3487),(3,5,3431),(3,6,5572),(3,7,4980);
+INSERT INTO `character_memmed_spells` VALUES (3,1,4107),(3,2,3487),(3,5,3431),(3,6,5572),(3,7,4980),(4,0,9);
 /*!40000 ALTER TABLE `character_memmed_spells` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 10:59:58
+-- Dump completed on 2022-11-25 14:48:31

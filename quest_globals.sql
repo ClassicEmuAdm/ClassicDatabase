@@ -40,7 +40,6 @@ CREATE TABLE `quest_globals` (
 
 LOCK TABLES `quest_globals` WRITE;
 /*!40000 ALTER TABLE `quest_globals` DISABLE KEYS */;
-INSERT INTO `quest_globals` VALUES (0,0,54,'nexus_gf','1',1669370819);
 /*!40000 ALTER TABLE `quest_globals` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 11:00:15
+-- Dump completed on 2022-11-25 14:48:50

@@ -42,7 +42,7 @@ CREATE TABLE `character_pet_info` (
 
 LOCK TABLES `character_pet_info` WRITE;
 /*!40000 ALTER TABLE `character_pet_info` DISABLE KEYS */;
-INSERT INTO `character_pet_info` VALUES (1,0,'',0,0,0,0,0,0),(1,1,'',0,0,0,0,0,0),(2,0,'',0,0,0,0,0,0),(2,1,'',0,0,0,0,0,0),(3,0,'',0,0,0,0,0,0),(3,1,'',0,0,0,0,0,0);
+INSERT INTO `character_pet_info` VALUES (1,0,'',0,0,0,0,0,0),(1,1,'',0,0,0,0,0,0),(2,0,'',0,0,0,0,0,0),(2,1,'',0,0,0,0,0,0),(3,0,'',0,0,0,0,0,0),(3,1,'',0,0,0,0,0,0),(4,0,'',0,0,0,0,0,0),(4,1,'',0,0,0,0,0,0);
 /*!40000 ALTER TABLE `character_pet_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 10:59:58
+-- Dump completed on 2022-11-25 14:48:31
