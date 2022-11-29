@@ -50,7 +50,7 @@ CREATE TABLE `account` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_ls_id` (`name`,`ls_id`),
   UNIQUE KEY `ls_id_lsaccount_id` (`ls_id`,`lsaccount_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -59,7 +59,7 @@ CREATE TABLE `account` (
 
 LOCK TABLES `account` WRITE;
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
-INSERT INTO `account` VALUES (4,'test3','Tezo',0,'',255,'local',3,1,1,1,0,0,0,'',1,0,NULL,1669410528,'','','','','');
+INSERT INTO `account` VALUES (4,'test3','Tezo',0,'',255,'local',3,1,1,1,0,0,0,'',1,0,NULL,1669410528,'','','','',''),(5,'test','Debra',0,'',255,'local',1,0,0,0,0,0,0,'',0,0,NULL,1669683437,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `account` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -72,4 +72,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 14:48:29
+-- Dump completed on 2022-11-28 19:39:51

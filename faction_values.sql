@@ -37,7 +37,7 @@ CREATE TABLE `faction_values` (
 
 LOCK TABLES `faction_values` WRITE;
 /*!40000 ALTER TABLE `faction_values` DISABLE KEYS */;
-INSERT INTO `faction_values` VALUES (1,248,1,0),(1,251,-6,0),(1,257,-1,0),(1,259,-1,0),(1,441,1,0),(1,5026,-30,0),(2,263,1,0),(2,365,-5,0),(2,475,1,0);
+INSERT INTO `faction_values` VALUES (1,248,1,0),(1,251,-6,0),(1,257,-1,0),(1,259,-1,0),(1,441,1,0),(1,5026,-30,0),(2,263,1,0),(2,365,-5,0),(2,475,1,0),(6,222,-50,0),(6,235,5,0),(6,308,5,0);
 /*!40000 ALTER TABLE `faction_values` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-25 14:48:33
+-- Dump completed on 2022-11-28 19:39:54
